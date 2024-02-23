@@ -6,7 +6,7 @@ fun main(){
 
 }
 
-open class Employee(){
+open class Employee {
     var name:String?=null
     var empID:String?=null
   open fun doWork(){

@@ -1,3 +1,5 @@
+package oops
+
 import kotlin.properties.Delegates
 
 fun main(){
@@ -24,8 +26,8 @@ val p= Person().apply {
 }
 
 class Person(){
-    var name:String?=null;
-    var age :Int?=null;
+    var name:String?=null
+    var age :Int?=null
 
     //static in java
     companion object {

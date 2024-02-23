@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58093e09-ff79-4ed1-9682-4b910fdc3417" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ClassAndObj.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Inheritance.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/collection/Arraylist.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/collection/LearnQueue.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/collection/LearnStack.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/collection/LernSet.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/oops/Interfaces.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ClassAndObj.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/oops/ClassAndObj.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Inheritance.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/oops/Inheritance.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/hello.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/oops/hello.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,19 +51,21 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.InheritanceKt">
-    <configuration name="ClassAndObjKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ClassAndObjKt" />
+  <component name="RunManager" selected="Kotlin.LernSetKt">
+    <configuration name="ArraylistKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.ArraylistKt" />
       <module name="oopps.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HelloKt" />
+    <configuration name="ClassAndObjKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oops.ClassAndObjKt" />
       <module name="oopps.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,11 +78,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InterfacesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterfacesKt" />
+      <module name="oopps.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LernSetKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.LernSetKt" />
+      <module name="oopps.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.LernSetKt" />
+        <item itemvalue="Kotlin.ArraylistKt" />
+        <item itemvalue="Kotlin.ClassAndObjKt (1)" />
+        <item itemvalue="Kotlin.InterfacesKt" />
         <item itemvalue="Kotlin.InheritanceKt" />
-        <item itemvalue="Kotlin.ClassAndObjKt" />
-        <item itemvalue="Kotlin.HelloKt" />
       </list>
     </recent_temporary>
   </component>
@@ -108,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708062637671</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update">
+      <created>1708408889451</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708408889451</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,13 +163,22 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-function">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/ClassAndObj.kt</url>
+          <url>file://$PROJECT_DIR$/src/main/kotlin/oops/ClassAndObj.kt</url>
           <line>38</line>
-          <properties class="Person" method="eat">
+          <properties class="oops.Person" method="eat">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/collection/LernSet.kt</url>
+          <line>2</line>
+          <properties method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
